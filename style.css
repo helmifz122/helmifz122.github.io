@@ -1,0 +1,235 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font family and remove margin from body */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Set the background color and make the audio player visible */
+body {
+  background-color: #f1f1f1;
+}
+
+.song {
+  visibility: visible;
+}
+
+/* Center the container vertically and horizontally */
+.container {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the heading */
+.one {
+  font-size: 4.5rem;
+}
+
+/* Style the greeting text */
+.two {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Style the birthday message */
+.three {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+/* Style the chat box */
+.four .text-box {
+  background-color: #fff;
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Style the chat box text */
+.text-box p {
+  text-align: left;
+}
+
+/* Style the chat box button */
+.text-box .fake-btn {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  color: #fff;
+  padding: .5rem 1rem;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Style the idea messages */
+.five p {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+/* Style the special message */
+.idea-3 strong {
+  background-color: #f1f1f1;
+  padding: 3px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+/* Style the "You are Special" message */
+.idea-5 {
+  font-size: 4rem;
+}
+
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
+  display: inline-block;
+}
+
+/* Style the big SO */
+.idea-6 span {
+  font-size: 15rem;
+}
+
+/* Style the profile picture container */
+.six {
+  position: relative;
+  top: 10vh;
+  z-index: 1;
+}
+
+/* Style the profile picture */
+.six img.profile-picture {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Style the birthday hat */
+.six .hat {
+  position: absolute;
+  top: -35%;
+  width: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Style the balloons container */
+.baloons {
+  position: relative;
+}
+
+/* Style the balloons */
+.baloons img {
+  position: absolute;
+}
+
+/* Style the background SVGs */
+.seven,
+.eight {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+.eight svg {
+  position: absolute;
+  visibility: hidden;
+  width: 25px;
+  z-index: -1;
+}
+
+/* Style the individual background SVGs */
+.eight svg:nth-child(1) {
+  fill: #bd6ecf;
+  left: 5vw;
+  top: 7vh;
+}
+
+.eight svg:nth-child(2) {
+  fill: #7dd175;
+  left: 35vw;
+  top: 23vh;
+}
+
+.eight svg:nth-child(3) {
+  fill: #349d8b;
+  left: 23vw;
+  top: 33vh;
+}
+
+.eight svg:nth-child(4) {
+  fill: #347a9d;
+  left: 57vw;
+  top: 43vh;
+}
+
+.eight svg:nth-child(5) {
+  fill: #c66053;
+  left: 7vw;
+  top: 68vh;
+}
+
+.eight svg:nth-child(6) {
+  fill: #bfaa40;
+  left: 77vw;
+  top: 42vh;
+}
+
+.eight svg:nth-child(7) {
+  fill: #e3bae8;
+  left: 83vw;
+  top: 68vh;
+}
+
+.eight svg:nth-child(8) {
+  fill: #8762cb;
+  left: 37vw;
+  top: 86vh;
+}
+
+.eight svg:nth-child(9) {
+  fill: #9a90da;
+  left: 87vw;
+  top: 94vh;
+}
+
+/* Style the "Happy Birthday" message */
+.wish-hbd {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+/* Style the wish message */
+.wish h5 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 10px 0 0;
+}
+
+/* Style the final message */
+.nine p {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 20px 0;
+}
+
+/* Style the replay message */
+#replay {
+  cursor: pointer;
+  z-index: 3;
+}
